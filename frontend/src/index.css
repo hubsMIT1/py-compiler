@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import './node_modules/dockview/dist/styles/dockview.css'; */
+
+h1 {
+  color: red;
+}
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+body {
+  margin: 0px;
+  color: white;
+  font-family: sans-serif;
+}
+
+#root {
+  height: 90vh;
+  width: 100vw;
+}
+.dockview-theme-abyss {
+  height: 90vh;
+}
+/* .app {
+  height: 100%;
+
+} */
+#Media{
+  height: 100%;
+}
+
+h3.question {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  /* text-align: center; */
+  font-weight: 100;
+}
+.react-terminal-wrapper{
+  background:transparent;
+}
+.ace_print-margin{
+  /* display: none; */
+  /* visibility: hidden; */
+  left: 200px;
+  background: #000c18;
+  
+}
+.ace-chaos .ace_print-margin{
+  border: none;
+  background:#000c18;
+  left: 200px;
+}
+
+.react-terminal{
+  scrollbar-width: none;
+}
+.editor-container {
+  width: 900px;
+  height: 540px;
+  margin: 20px auto;
+  position: relative;
+}
+
+#editor {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+}
+
+.react-terminal-window-buttons {
+  display: none;
+}
+
+.react-terminal-wrapper{
+  padding: 2px;
+}
+
+
+
+
+/* frontend/App.css */
+/* .App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.message-container {
+  width: 80%;
+  height: 70%;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  color: #000c18;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-top: 20px;
+}
+
+input[type='text'] {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  color:#000c18;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+} */
