@@ -2,7 +2,7 @@
 
 ### To run locally
 ```
-git clone 
+git clone https://github.com/hubsMIT1/py-compiler.git
 cd py-compiler
 ```
 ### To run backend
